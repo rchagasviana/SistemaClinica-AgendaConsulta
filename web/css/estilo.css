@@ -1,0 +1,46 @@
+*{ /*Formata todos os elementos da página*/
+    padding:0px; /*espaço entre a borda e o conteúdo do elemento*/
+    margin:0px; /*espaço entre a borda e os elementos externos*/
+}
+#topo{
+    width: 100%; /*largura*/
+    height: 120px; /*altura*/
+    text-align: center; /*alinhamento do texto*/
+    clear: both; /*não permite elementos flutuantes ao lado*/
+    background-color: black;
+    color: white;
+}
+
+#meio{
+    width: 100%; /*largura*/
+    height: 80%; /*altura*/  
+    margin-top:50px;
+   
+}
+
+#menuLateral{
+    padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+    width: 15%; /*largura*/
+    height: 450px;
+    float:left; /*define que o elemento deve flutuar à esquerda*/
+
+}
+#conteudo{
+    padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+    width: 77%; /*largura*/
+    height: auto;
+    float:right; /*define que o elemento deve flutuar à direita*/
+    margin-right: 10px;
+}
+
+#rodape{
+    clear: both; /*não permite elementos flutuantes ao lado*/
+    text-align: center; /*alinhamento do texto*/
+    padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+
+}
+
+#divBoasVindas{
+    text-align: center;    
+}
+
